@@ -8,7 +8,7 @@ module.exports = function (task) {
     task
     .id('chmod')
     .name('Change mode')
-    .description('Change mode of a file or a set of files.')
+    .description('Change mode of files and folders.')
     .author('Indigo United')
 
     .option('files', 'Which file to chmod. Accepts a filename and array of filenames. Also note that the filenames can be minimatch patterns.')

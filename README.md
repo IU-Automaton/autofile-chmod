@@ -1,6 +1,6 @@
 # Change mode (chmod)
 
-Change mode of a file or a set of files.
+Change mode of files and folders.
 
 *Indigo United*
 

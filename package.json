@@ -1,7 +1,7 @@
 {
   "name": "autofile-chmod",
   "version": "0.0.0",
-  "description": "Change mode of a file or a set of files.",
+  "description": "Change mode of files and folders.",
   "main": "autofile.js",
   "scripts": {
     "test": "mocha -R spec"
