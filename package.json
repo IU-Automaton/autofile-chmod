@@ -1,10 +1,10 @@
 {
   "name": "autofile-chmod",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Change mode of a file or a set of files.",
   "main": "autofile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -R spec"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,14 @@
   ],
   "author": "Indigo United",
   "license": "MIT",
-  "readmeFilename": "README.md"
+  "peerDependencies": {
+    "glob": "~3.1",
+    "async": "~0.2"
+  },
+  "devDependencies": {
+    "automaton": "~0.1.4",
+    "rimraf": "~2.1.4",
+    "expect.js": "~0.2.0",
+    "mocha": "~1.8.1"
+  }
 }

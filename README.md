@@ -1,9 +1,9 @@
 `automaton task` - http://indigounited.com/automaton
 
-rm
+chmod
 ===
 
-Remove file or set of files.
+Change mode of file/directory or set of files/directories.
 
 *Indigo United 2013*
 
