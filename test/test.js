@@ -1,11 +1,12 @@
+/*global describe, it, before, beforeEach, after*/
+
 'use strict';
 
-var expect    = require('expect.js'),
-    fs        = require('fs'),
-    rimraf    = require('rimraf'),
-    automaton = require('automaton').create(),
-    chmod     = require('../autofile')
-;
+var expect    = require('expect.js');
+var fs        = require('fs');
+var rimraf    = require('rimraf');
+var automaton = require('automaton').create();
+var chmod     = require('../autofile');
 
 describe('chmod', function () {
     var mode755_dir,
